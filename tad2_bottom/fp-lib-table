@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "tad2_bottom-backups")(type "KiCad")(uri "${KIPRJMOD}/tad2_bottom-backups")(options "")(descr ""))
+)

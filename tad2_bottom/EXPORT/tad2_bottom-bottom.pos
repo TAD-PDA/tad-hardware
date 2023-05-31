@@ -1,0 +1,13 @@
+### Module positions - created on Ne 6. března 2022, 22:48:37 ###
+### Printed by Pcbnew version 6.0.2-378541a8eb~116~ubuntu21.10.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val           Package                                           PosX       PosY       Rot  Side
+BT1       Battery_Cell  JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical       -120.0000  -102.7600  180.0000  bottom
+C2        10μF         C_0805_2012Metric_Pad1.18x1.45mm_HandSolder  -137.5000  -110.7948  180.0000  bottom
+C12       22μF         C_0805_2012Metric_Pad1.18x1.45mm_HandSolder  -132.5880  -102.3405  -90.0000  bottom
+L1        1.0μH_       L_0805_2012Metric_Pad1.05x1.20mm_HandSolder  -136.7500  -106.5000  -90.0000  bottom
+R4        45            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder  -140.4620  -106.9848  -90.0000  bottom
+R7        1K            R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   -45.5930  -106.9848  -90.0000  bottom
+TH1       22_3000K      PinHeader_1x02_P2.54mm_Vertical              -117.5716   -96.7740  -90.0000  bottom
+## End

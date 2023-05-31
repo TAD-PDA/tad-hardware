@@ -1,0 +1,125 @@
+### Module positions - created on Ne 6. března 2022, 22:48:37 ###
+### Printed by Pcbnew version 6.0.2-378541a8eb~116~ubuntu21.10.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                                             PosX       PosY       Rot  Side
+                                                                              78.2320  -100.6348    0.0000  top
+                                                                              73.1520  -100.6348    0.0000  top
+                                                                              96.0120   -98.0948    0.0000  top
+                                                                              88.3920   -98.0948    0.0000  top
+                                                                              90.9320   -98.0948    0.0000  top
+                                                                              70.6120  -100.6348    0.0000  top
+                                                                              93.4720   -98.0948    0.0000  top
+                                                                              80.7720  -100.6348    0.0000  top
+                                                                              80.7720   -98.0948    0.0000  top
+                                                                              83.3120   -98.0948    0.0000  top
+                                                                              75.6920   -98.0948    0.0000  top
+                                                                              70.6120   -98.0948    0.0000  top
+                                                                              73.1520   -98.0948    0.0000  top
+                                                                              78.2320   -98.0948    0.0000  top
+                                                                              98.5520   -98.0948    0.0000  top
+                                                                              98.5520  -100.6348    0.0000  top
+                                                                              85.8520   -98.0948    0.0000  top
+                                                                              75.6920  -100.6348    0.0000  top
+BM1       mp2723             QFN-26                                          137.1670  -106.4260   90.0000  top
+C1        1μF               C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     137.5000  -110.7948    0.0000  top
+C3        470nF              C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     140.4620  -108.8898   90.0000  top
+C4        10μF              C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     138.0000  -102.0000    0.0000  top
+C5        10μF              C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     106.6800  -106.6800  -90.0000  top
+C6        0.1μF             C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      97.1550  -111.7600   90.0000  top
+C7        22μF              C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     100.9650  -112.3950    0.0000  top
+C8        1μF               C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      93.2180  -106.2228   90.0000  top
+C9        10nF               C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      89.9160  -104.6988    0.0000  top
+C10       1μF               C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      86.6140  -104.4448   90.0000  top
+C13       22μF              C_0805_2012Metric_Pad1.18x1.45mm_HandSolder     129.0613  -100.9396  180.0000  top
+D1        LED_Small          LED_D3.0mm                                      143.0020  -104.4448   90.0000  top
+D2        WS2812B            LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm               62.8650  -107.0610   90.0000  top
+D3        WS2812B            LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm               68.7070  -107.0610   90.0000  top
+D4        WS2812B            LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm               74.5490  -107.0610   90.0000  top
+D5        WS2812B            LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm               80.3910  -107.0610   90.0000  top
+D6        LED_Small          LED_D3.0mm                                       41.0084  -108.1404   45.0000  top
+J1        Conn_01x10_Female  Molex_200528-0100_1x10-1MP_P1.00mm_Horizontal   119.1520  -112.5148  180.0000  top
+J2        USB_B_Micro        USB_Micro-B_Molex-105017-0001                   108.2500   -97.7375  180.0000  top
+J4        Conn_01x05_Female  PinHeader_1x05_P2.54mm_Vertical                  37.0332  -104.6988    0.0000  top
+L3        1.0μH_            L_0805_2012Metric_Pad1.05x1.20mm_HandSolder     106.6800  -110.7440   90.0000  top
+POWER1    SW_Push            SW_Tactile_SKHH_Angled                           60.0710   -98.0948    0.0000  top
+R1        1K                 R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     140.2080  -100.0760    0.0000  top
+R2        40K                R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     130.0320  -108.6348    0.0000  top
+R3        1K                 R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     131.7564  -104.1251  180.0000  top
+R5        18                 R_0805_2012Metric_Pad1.20x1.40mm_HandSolder     124.0000   -96.8248  180.0000  top
+R6        100                R_0805_2012Metric_Pad1.20x1.40mm_HandSolder      97.1550  -107.9500   90.0000  top
+SW1       SW_Push            SW_SPST_B3U-1000P-B                             127.4020  -105.5448    0.0000  top
+S_'1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      132.5880  -141.8360  -90.0000  top
+S_+1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      138.0120  -121.8460  -90.0000  top
+S_,1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      113.7000  -151.5640  -90.0000  top
+S_-1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      129.8840  -121.8460  -90.0000  top
+S_.1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      121.8280  -151.5640  -90.0000  top
+S_/1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      129.9560  -151.5640  -90.0000  top
+S_1       SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       48.6040  -121.8460  -90.0000  top
+S_2       SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       56.7320  -121.8540  -90.0000  top
+S_3       SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       64.8600  -121.8460  -90.0000  top
+S_4       SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       72.9880  -121.8460  -90.0000  top
+S_5       SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       81.1160  -121.8460  -90.0000  top
+S_6       SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       89.2440  -121.8460  -90.0000  top
+S_7       SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       97.3720  -121.8460  -90.0000  top
+S_8       SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      105.5000  -121.8460  -90.0000  top
+S_9       SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      113.6280  -121.8460  -90.0000  top
+S_10      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      121.7560  -121.8460  -90.0000  top
+S_;1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      124.4600  -141.7320  -90.0000  top
+S_A1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       51.3080  -141.7320  -90.0000  top
+S_ALT1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       47.6800  -151.5110  -90.0000  top
+S_B1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       89.3160  -151.5640  -90.0000  top
+S_BCK1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      149.0060  -131.7520  -90.0000  top
+S_C1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       73.0600  -151.5640  -90.0000  top
+S_CTR1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       41.8180  -141.6580  -90.0000  top
+S_D1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       67.5640  -141.7320  -90.0000  top
+S_DEL1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      149.0060  -121.8460  -90.0000  top
+S_DOWN1   SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       64.9320  -161.4700  -90.0000  top
+S_E1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       65.9480  -131.7520  -90.0000  top
+S_ENTER1  SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      149.0060  -141.9120  -90.0000  top
+S_ESC1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       39.5320  -121.8460  -90.0000  top
+S_F1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       75.6920  -141.7320  -90.0000  top
+S_G1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       83.8200  -141.7320  -90.0000  top
+S_H1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       91.9480  -141.7320  -90.0000  top
+S_I1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      106.5880  -131.7520  -90.0000  top
+S_J1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      100.0760  -141.7320  -90.0000  top
+S_K1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      108.2040  -141.7320  -90.0000  top
+S_L1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      116.3320  -141.7320  -90.0000  top
+S_LEF1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      121.5740  -161.4700  -90.0000  top
+S_LFN1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       48.6760  -161.4700  -90.0000  top
+S_LHY1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       40.5480  -161.4700  -90.0000  top
+S_LSH1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       39.5520  -151.5110  -90.0000  top
+S_M1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      105.5720  -151.6125  -90.0000  top
+S_MAC1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      145.9580  -161.4700  -90.0000  top
+S_MB1     SW_Push_Diode-tad  SW_PUSH_off_board_diode                          72.3900  -160.0200  -45.0000  top
+S_MB2     SW_Push_Diode-tad  SW_PUSH_off_board_diode                          75.8360  -160.0200  -45.0000  top
+S_MB3     SW_Push_Diode-tad  SW_PUSH_off_board_diode                          79.3750  -160.0200  -45.0000  top
+S_MB4     SW_Push_Diode-tad  SW_PUSH_off_board_diode                         106.6800  -160.0200  -45.0000  top
+S_MB5     SW_Push_Diode-tad  SW_PUSH_off_board_diode                         110.1260  -160.0200  -45.0000  top
+S_N1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       97.4440  -151.5640  -90.0000  top
+S_O1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      114.7160  -131.7520  -90.0000  top
+S_P1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      122.8440  -131.7520  -90.0000  top
+S_Q1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       49.6920  -131.7520  -90.0000  top
+S_R1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       74.0760  -131.7520  -90.0000  top
+S_RFN1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      137.8300  -161.4700  -90.0000  top
+S_RIG1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      129.7020  -161.4700  -90.0000  top
+S_RSH1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      149.0060  -151.8180  -90.0000  top
+S_S1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       59.4360  -141.7320  -90.0000  top
+S_SPC1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       93.9800  -161.4700  -90.0000  top
+S_T1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       82.2040  -131.7520  -90.0000  top
+S_TAB1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       39.5320  -131.7520  -90.0000  top
+S_TIL1    SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      137.8300  -151.5640  -90.0000  top
+S_U1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       98.4600  -131.7520  -90.0000  top
+S_UP1     SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       56.8040  -161.4700  -90.0000  top
+S_V1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       81.1880  -151.5640  -90.0000  top
+S_W1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       57.8200  -131.7520  -90.0000  top
+S_X1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       64.9320  -151.5640  -90.0000  top
+S_Y1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       90.3320  -131.7520  -90.0000  top
+S_Z1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                       56.8040  -151.5640  -90.0000  top
+S_[1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      130.9720  -131.7520  -90.0000  top
+S_\1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      140.7540  -141.9120  -90.0000  top
+S_]1      SW_Push_Diode-tad  SW_PUSH_8mm_silicone_diode                      139.1000  -131.7520  -90.0000  top
+U1        stm32g030c8tx      LQFP-48_7x7mm_P0.5mm                             51.4350  -106.6800  -135.0000  top
+U2        max8815a           DFN-10-1EP_3x3mm_P0.5mm_EP1.7x2.5mm             101.6000  -109.2200  180.0000  top
+U3        LD3985G33R_TSOT23  TSOT-23-5                                        89.9160  -107.7468  180.0000  top
+## End

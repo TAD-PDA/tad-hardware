@@ -1,0 +1,91 @@
+
+(rules PCB tad2
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 150.0)
+    (clear 125.0 (type smd_to_turn_gap))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    "/U_1_col_11" "/U_1_row_2" "/U_1_col_12" "/U_1_row_0" "/U_1_col_9" "/U_1_row_3" "/U_1_col_10" "/U_1_col_1"
+    "/U_1_col_2" "/U_1_col_3" "/U_1_col_4" "/U_1_col_5" "/U_1_col_6" "/U_1_col_7" "/U_1_col_8" "/U_1_col_13"
+    "/U_1_row_1" "/U_1_col_0" "/U_1_row_4" "unconnected-(S_'1-Pad2)" "unconnected-(S_+1-Pad2)" "unconnected-(S_,1-Pad2)" "unconnected-(S_-1-Pad2)" "unconnected-(S_.1-Pad2)"
+    "unconnected-(S_/1-Pad2)" "unconnected-(S_1-Pad2)" "unconnected-(S_2-Pad2)" "unconnected-(S_3-Pad2)" "unconnected-(S_4-Pad2)" "unconnected-(S_5-Pad2)" "unconnected-(S_6-Pad2)" "unconnected-(S_7-Pad2)"
+    "unconnected-(S_8-Pad2)" "unconnected-(S_9-Pad2)" "unconnected-(S_10-Pad2)" "unconnected-(S_;1-Pad2)" "unconnected-(S_A1-Pad2)" "unconnected-(S_ALT1-Pad2)" "unconnected-(S_B1-Pad2)" "unconnected-(S_BCK1-Pad2)"
+    "unconnected-(S_C1-Pad2)" "unconnected-(S_CTR1-Pad2)" "unconnected-(S_D1-Pad2)" "unconnected-(S_DEL1-Pad2)" "unconnected-(S_DOWN1-Pad2)" "unconnected-(S_E1-Pad2)" "unconnected-(S_ENTER1-Pad2)" "unconnected-(S_ESC1-Pad2)"
+    "unconnected-(S_F1-Pad2)" "unconnected-(S_G1-Pad2)" "unconnected-(S_H1-Pad2)" "unconnected-(S_I1-Pad2)" "unconnected-(S_J1-Pad2)" "unconnected-(S_K1-Pad2)" "unconnected-(S_L1-Pad2)" "unconnected-(S_LEF1-Pad2)"
+    "unconnected-(S_LFN1-Pad2)" "unconnected-(S_LHY1-Pad2)" "unconnected-(S_LSH1-Pad2)" "unconnected-(S_M1-Pad2)" "unconnected-(S_MAC1-Pad2)" "unconnected-(S_MB1-Pad2)" "unconnected-(S_MB2-Pad2)" "unconnected-(S_MB3-Pad2)"
+    "unconnected-(S_MB4-Pad2)" "unconnected-(S_MB5-Pad2)" "unconnected-(S_N1-Pad2)" "unconnected-(S_O1-Pad2)" "unconnected-(S_P1-Pad2)" "unconnected-(S_Q1-Pad2)" "unconnected-(S_R1-Pad2)" "unconnected-(S_RFN1-Pad2)"
+    "unconnected-(S_RIG1-Pad2)" "unconnected-(S_RSH1-Pad2)" "unconnected-(S_S1-Pad2)" "unconnected-(S_SPC1-Pad2)" "unconnected-(S_T1-Pad2)" "unconnected-(S_TAB1-Pad2)" "unconnected-(S_TIL1-Pad2)" "unconnected-(S_U1-Pad2)"
+    "unconnected-(S_UP1-Pad2)" "unconnected-(S_V1-Pad2)" "unconnected-(S_W1-Pad2)" "unconnected-(S_X1-Pad2)" "unconnected-(S_Y1-Pad2)" "unconnected-(S_Z1-Pad2)" "unconnected-(S_[1-Pad2)" "unconnected-(S_\1-Pad2)"
+    "unconnected-(S_]1-Pad2)" "USB_DP" "USB_IN" "Net-(BM1-Pad3)" "Net-(BM1-Pad4)" "GND_BOT" "Net-(BM1-Pad8)" "Net-(BM1-Pad9)"
+    "STM_MP_INT" "Net-(BM1-Pad11)" "Net-(BM1-Pad12)" "/VREF_MP2723" "SYS_OUT_VLOW" "Net-(BM1-Pad17)" "STM_MP_CE{slash}" "Net-(BM1-Pad22)"
+    "STM_MP_OTG" "Net-(BM1-Pad24)" "Net-(D1-Pad2)" "Net-(R5-Pad2)" "unconnected-(U1-Pad4)" "unconnected-(U1-Pad5)" "unconnected-(U1-Pad6)" "unconnected-(U1-Pad7)"
+    "unconnected-(U1-Pad10)" "unconnected-(U1-Pad11)" "unconnected-(U1-Pad12)" "unconnected-(U1-Pad13)" "unconnected-(U1-Pad14)" "unconnected-(U1-Pad15)" "unconnected-(U1-Pad16)" "unconnected-(U1-Pad17)"
+    "unconnected-(U1-Pad18)" "unconnected-(U1-Pad19)" "unconnected-(U1-Pad20)" "unconnected-(U1-Pad21)" "unconnected-(U1-Pad22)" "unconnected-(U1-Pad23)" "unconnected-(U1-Pad30)" "unconnected-(U1-Pad31)"
+    "unconnected-(U1-Pad33)" "unconnected-(U1-Pad34)" "unconnected-(U1-Pad35)" "unconnected-(U1-Pad36)" "STM_MP_N" "STM_MP_P" "USB_DN"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
